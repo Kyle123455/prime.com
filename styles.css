@@ -16,7 +16,7 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 header .logo img {
@@ -33,7 +33,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 header nav ul li a {
@@ -52,7 +52,7 @@ header nav ul li a {
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero p {
