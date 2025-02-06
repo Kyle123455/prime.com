@@ -4,65 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PrimeBusinessSolutions - Services</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <!-- Header -->
   <header>
-    <div class="container">
-      <div class="logo">
-        <img src="desi.png" alt="PrimeBusinessSolutions Logo">
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="book-a-call.html">Book a Call</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="book-a-call.html">Book a Call</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Services Section -->
-  <div class="container">
-      <h2>Our Services</h2>
-      <div class="service-grid">
-        <div class="service-item">
-          <i class="fas fa-truck fa-3x"></i>
-    <div class="service-card" data-link="dispatcher-services.html">
-        <h3>Dispatcher Services</h3>
-        <p>Optimize your logistics with expert dispatchers.</p>
-    </div>
-<div class="service-item">
-          <i class="fas fa-briefcase fa-3x"></i>
-    <div class="service-card" data-link="executive-assistants.html">
-        <h3>Executive Assistant</h3>
-        <p>Get high-level support from professional assistants.</p>
-    </div>
- <div class="service-item">
-          <i class="fas fa-headset fa-3x"></i>
-    <div class="service-card" data-link="customer-service.html">
-        <h3>Customer Service</h3>
-        <p>Enhance customer experience with top-tier support.</p>
-    </div>
-</section>
-
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 PrimeBusinessSolutions. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+  <main>
+    <section class="services">
+      <h1>Our Services</h1>
+      <div class="service-list">
+        <div class="service-item" onclick="window.location.href='executive-assistant.html'">
+          <h2>Executive Assistant</h2>
+          <p>Efficient and reliable support for your executive needs.</p>
+        </div>
+        <div class="service-item" onclick="window.location.href='customer-service.html'">
+          <h2>Customer Service</h2>
+          <p>Exceptional customer support to enhance your business reputation.</p>
+        </div>
+        <div class="service-item" onclick="window.location.href='dispatcher.html'">
+          <h2>Dispatcher</h2>
+          <p>Streamlined dispatching services for your operations.</p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </section>
+  </main>
 
-  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2023 PrimeBusinessSolutions. All rights reserved.</p>
+  </footer>
 </body>
 </html>
