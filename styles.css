@@ -74,46 +74,41 @@ header nav ul li a {
 }
 
 /* Services Section */
-.services-preview, .services {
-  padding: 80px 0;
-  background: #f9f9f9;
-  text-align: center;
+.service-card {
+    background: #f8f9fa;
+    padding: 20px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
 }
 
-.services-preview h2, .services h2 {
-  margin-bottom: 40px;
+.service-card:hover {
+    background: #007bff;
+    color: white;
+    transform: scale(1.05);
 }
 
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+.service-card h3 {
+    margin: 0;
+    color: #333;
 }
 
-.service-item {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.service-card:hover h3 {
+    color: white;
 }
 
-.service-item i {
-  color: #ff6b6b;
-  margin-bottom: 20px;
+.service-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
 }
 
-.service-item h3 {
-  margin-bottom: 10px;
-}
-
-.service-item ul {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-}
-
-.service-item ul li {
-  margin-bottom: 10px;
+.service-card:hover p {
+    color: white;
 }
 
 /* About Section */
